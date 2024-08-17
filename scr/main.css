@@ -132,3 +132,38 @@ html {
     margin-left:8px;
     margin-right:8px;
   }
+
+  .slider--chat .slider__before {
+    background-image: url('https://primary.jwwb.nl/public/s/d/e/temp-zjzuzjjbrtxcwrrjbqnd/001-avant-pon-age-1500_1000-high-rhlr7m.jpg');
+  }
+  
+  .slider--chat .slider__after {
+    background-image: url('https://primary.jwwb.nl/public/s/d/e/temp-zjzuzjjbrtxcwrrjbqnd/002-apres-1500_1000-high.jpg');
+  }
+  
+  .slider--chat .slider__separator:before {
+    content:'';
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    border:solid 2px white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  .slider--chat .slider__range {
+    display:none;
+  }
+  
+  .slider--chat .slider__before:before, 
+  .slider--chat .slider__after:before {
+    top:50%;
+    transform:translateY(-50%);
+    background:rgba(255,0,0,0.5);
+    padding:8px 16px;
+    border-radius:8px;
+    margin-left:8px;
+    margin-right:8px;
+  }
