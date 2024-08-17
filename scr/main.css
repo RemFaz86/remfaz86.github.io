@@ -168,15 +168,23 @@ html {
     margin-right:8px;
   }
 
-  .slider--esc .slider__before {
+  .slider2 {
+    position:relative;
+    height:0px;
+    padding-bottom:177.666666667%;
+    margin-top:24px;
+    margin-bottom:24px;
+  }
+
+  .slider2--esc .slider__before {
     background-image: url('https://primary.jwwb.nl/public/s/d/e/temp-zjzuzjjbrtxcwrrjbqnd/poncage-escaliers-6-standard-oa3ngr.jpg');
   }
   
-  .slider--esc .slider__after {
+  .slider2--esc .slider__after {
     background-image: url('https://primary.jwwb.nl/public/s/d/e/temp-zjzuzjjbrtxcwrrjbqnd/poncage-escaliers-1-standard-bxv5ud.jpg');
   }
   
-  .slider--esc .slider__separator:before {
+  .slider2--esc .slider__separator:before {
     content:'';
     width:32px;
     height:32px;
@@ -188,12 +196,12 @@ html {
     transform:translate(-50%, -50%);
   }
   
-  .slider--esc .slider__range {
+  .slider2--esc .slider__range {
     display:none;
   }
   
-  .slider--esc .slider__before:before, 
-  .slider--esc .slider__after:before {
+  .slider2--esc .slider__before:before, 
+  .slider2--esc .slider__after:before {
     top:50%;
     transform:translateY(-50%);
     background:rgba(255,0,0,0.5);
